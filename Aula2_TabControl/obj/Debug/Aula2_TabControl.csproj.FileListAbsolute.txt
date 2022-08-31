@@ -1,0 +1,10 @@
+C:\Users\aluno\source\repos\Aula2_TabControl\bin\Debug\Aula2_TabControl.exe.config
+C:\Users\aluno\source\repos\Aula2_TabControl\bin\Debug\Aula2_TabControl.exe
+C:\Users\aluno\source\repos\Aula2_TabControl\bin\Debug\Aula2_TabControl.pdb
+C:\Users\aluno\source\repos\Aula2_TabControl\obj\Debug\Aula2_TabControl.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\Aula2_TabControl\obj\Debug\Aula2_TabControl.Form1.resources
+C:\Users\aluno\source\repos\Aula2_TabControl\obj\Debug\Aula2_TabControl.Properties.Resources.resources
+C:\Users\aluno\source\repos\Aula2_TabControl\obj\Debug\Aula2_TabControl.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\Aula2_TabControl\obj\Debug\Aula2_TabControl.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\Aula2_TabControl\obj\Debug\Aula2_TabControl.exe
+C:\Users\aluno\source\repos\Aula2_TabControl\obj\Debug\Aula2_TabControl.pdb
