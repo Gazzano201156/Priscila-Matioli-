@@ -26,5 +26,10 @@ namespace Estudio
         {
 
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            Aluno aluno = new Aluno(txtCPF.Text, txtNome.Text, txtRua.Text, txtNumero.Text, txtComplemento.Text, txtCEP.Text
+        }
     }
 }

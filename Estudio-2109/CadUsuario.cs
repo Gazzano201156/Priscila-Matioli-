@@ -16,5 +16,23 @@ namespace Estudio
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            int tipo = 0;
+            if (cboTipo.SelectedIndex == 0)
+                tipo = 1; //adm
+            if (cboTipo.SelectedIndex == 1)
+                tipo = 2; //restrito
+            if (DAO_Conexao.CadLogin(TextBox1.Text, textBox2.Text, tipo))
+                MessageBox.Show("Cadastro realizado com sucesso");
+            else
+                MessageBox.Show("Erro de cadastro!");
+        }
+
+        private void cboTipo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

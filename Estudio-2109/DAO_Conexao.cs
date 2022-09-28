@@ -11,7 +11,7 @@ namespace Estudio
     {
 
 
-        private static MySqlConnection con;
+        public static MySqlConnection con;
 
         public static Boolean getConexao(String local, String banco, String user, String senha)
         {
@@ -59,10 +59,26 @@ namespace Estudio
         }
 
 
-        public static Boolean CadLogin (string usuario, string senha, int tipo)
+        public static Boolean CadLogin(string usuario, string senha, int tipo)
         {
-            bool
-
+            bool cad = false;
+            try
+            {
+                con.Open();
+                MySqlCommand insere = new MySqlCommand("insert into Estudio_Login (usuario, senha, tipo) " +
+                    "values ('" + usuario + "','" + senha + "'," + tipo + ")", con);
+                insere.ExecuteNonQuery();
+                cad = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                con.Close();
+            }
+            return cad;
         }
 
     }
